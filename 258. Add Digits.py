@@ -44,3 +44,8 @@ class Solution(object):
         		return 9
         	else:
         		return num % 9
+
+# Test
+a = Solution()
+print a.addDigits(10)
+print a.addDigits(657)
