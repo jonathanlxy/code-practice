@@ -24,6 +24,6 @@ class Solution(object):
         return n%4 != 0
 
 # Test
-a = Solution
+a = Solution()
 a.canWinNim(4)
 a.canWinNim(5)
