@@ -25,5 +25,5 @@ class Solution(object):
 
 # Test
 a = Solution()
-a.canWinNim(4)
-a.canWinNim(5)
+print a.canWinNim(4)
+print a.canWinNim(5)
