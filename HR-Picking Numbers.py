@@ -1,3 +1,4 @@
+'''
 Picking Numbers
 Given an array of integers, find and print the maximum number of integers you can select from the array such that the absolute difference between any two of the chosen integers is .
 Example 1: 
@@ -6,7 +7,7 @@ Example 1:
 Example 2:
   Input: 1 2 2 3 1 2
   Output = 5 (length of 1, 2, 2, 1, 2)
-  
+'''
 
 from collections import Counter
 from datetime import datetime
