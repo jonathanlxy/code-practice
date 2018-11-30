@@ -1,6 +1,7 @@
 '''
 Picking Numbers
-Given an array of integers, find and print the maximum number of integers you can select from the array such that the absolute difference between any two of the chosen integers is .
+Given an array of integers, find and print the maximum number of integers you can select from the array 
+such that the absolute difference between any two of the chosen integers <= 1.
 Example 1: 
   Input = '4 6 5 3 3 1', the matching collection is (4, 3, 3), 
   Thus the return value should be the length of this collection: 3
@@ -16,7 +17,7 @@ def timer(func):
     def f(*args, **kwargs):
         now = datetime.now()
         rv = func(*args, **kwargs)
-        print datetime.now() - now
+        print(datetime.now() - now)
         return rv
     return f
 
@@ -47,7 +48,7 @@ def func2(a):
 
 # Test it
 i = '66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66'
-a = map(int, i.strip().split(' '))
+a = list(map(int, i.strip().split(' ')))
 
-print func1(a)
-print func2(a)
+print(func1(a))
+print(func2(a))
